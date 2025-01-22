@@ -1,0 +1,97 @@
+body {
+    background-color: #e84e4e;
+  }
+
+  h1, h2 {
+    font-family: 'Nanum Pen Script', cursive;
+    margin: 0; /* Elimina los márgenes por defecto */
+    line-height: 1; /* Ajusta la altura de línea para reducir espacio */
+    text-align: center;
+  }
+
+  h1 {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 3.5em; /* Ajusta el tamaño de la fuente */
+    color: black;; /* Color principal del texto */
+    text-shadow: 3px 3px 5px white; /* Sombra para efecto 3D */
+    text-align: center;
+  }
+
+  h2 {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 2em; /* Tamaño más pequeño para la línea secundaria */
+    color: black;; /* Color principal del texto */
+    text-shadow: 3px 3px 5px white; /* Sombra más sutil */
+    text-align: center;
+    margin-top: 10px; /* Separación entre las líneas */
+  }
+
+  img {
+    display: block;            /* Hace que la imagen se comporte como un bloque */
+    margin-left: auto;         /* Centra la imagen estableciendo márgenes automáticos */
+    margin-right: auto;        /* Centra la imagen estableciendo márgenes automáticos */
+    max-width: 100%;           /* Limita el ancho máximo al 100% de su contenedor */
+    height: 250px;              /* Mantiene la proporción de la imagen (no distorsiona) */
+  }
+
+/* Aplica la fuente y centra todo el contenido dentro de los divs */
+div {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 1.2em;          /* Ajusta el tamaño de la fuente a 2em */
+    text-align: center;      /* Centra el texto horizontalmente */
+    color: black;;
+    text-shadow: 3px 3px 5px white; /* Sombra para efecto 3D */
+    margin: 0;               /* Elimina los márgenes por defecto */
+  }
+  
+  /* Centra específicamente el contenido del enlace dentro del div con id 'lastStream' */
+  #lastStream {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 1em;          /* Aplica el tamaño de 2em */
+    text-align: center;      /* Centra el texto */
+    display: block;          /* Cambia el enlace a bloque para que se centre correctamente */
+    margin: 0 auto;          /* Asegura que el enlace esté centrado */
+    color: black;;
+    text-shadow: 3px 3px 5px white; /* Sombra para efecto 3D */
+  }
+  
+  /* Centra el contenido del div con id 'how-long-since-stream' */
+  #how-long-since-stream {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 1em;          /* Aplica el tamaño de 2em */
+    text-align: center;      /* Centra el texto */
+    color: black;;
+    text-shadow: 3px 3px 5px white; /* Sombra para efecto 3D */
+    margin: 0;
+  }
+  
+  /* Centra el contenido dentro de 'streamContainer' */
+  #streamContainer {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 1em;          /* Aplica el tamaño de 2em */
+    text-align: center;      /* Centra el texto */
+    color: black;
+    text-shadow: 3px 3px 5px white; /* Sombra para efecto 3D */
+    margin: 0;
+  }
+  
+  /* Centra específicamente los enlaces dentro del footer */
+  footer a {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 1em;          /* Aplica el tamaño de 2em */
+    text-align: center;      /* Centra el texto */
+    color: black;;
+    text-shadow: 3px 3px 5px white; /* Sombra para efecto 3D */
+    display: block;          /* Cambia el enlace a bloque para que se centre correctamente */
+    margin: 0 auto;          /* Asegura que el enlace esté centrado */
+  }
+
+  #randomStream {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 1em; /* Tamaño de la fuente igual que otros textos */
+    color: black; /* Puedes cambiar el color si lo deseas */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    text-shadow: 3px 3px 5px white; /* Sombra para efecto 3D */
+    display: inline-block; /* Asegura que se comporte como un bloque inline */
+    margin: 20px 0; /* Añade un poco de espacio alrededor */
+  }
